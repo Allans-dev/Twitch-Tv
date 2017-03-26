@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  <title> TwitchTV </title>
+</header>
+<body>
+
+  <div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+
+      <div class="dropdown">
+  <button class="btn secondary-btn" type="button" id="startBtn">
+    <h1>Viewer</h1>
+  </button>
+  <div id="dropdown-menu">
+  <button class="btn secondary-btn" id="all-btn" type="button"><span class='heading2'> Available Streamers </span></button>
+  <div class="menu2" id="all"> <ul></ul></div> <br>
+  <button class="btn secondary-btn" id="online-btn" type="button"><span class='heading2'> online </span></button>
+  <div class="menu2" id="online"> <ul></ul></div> <br>
+  <button class="btn secondary-btn" id="offline-btn" type="button"><span class='heading2'> offline </span></button>
+  <div class="menu2" id="offline"> <ul></ul></div> <br>
+  <form action="#"><input type="search" id="search" placeholder="search"></form>
+  <div id="searchResults"> <ul>
+    <a href="https://www.twitch.tv/" id="na"><li class="noResult"><span class="searchClass"> This channel isn't available please click to visit the official twitch website for more channels.</span></li></a>
+   </ul>
+  </div>
+      </div> <!--dropdown-menu-->
+     </div> <!--dropdown-->
+    </div> <!--col-->
+
+   </div> <!--row-->
+  </div> <!--container fluid-->
+
+</body>
+</html>
